@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="lib/postgis-jdbc-2.1.7.jar:lib/postgresql-9.4-1201.jdbc41.jar" destdir="doc" doctitle="CityPulse GDI client" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="eu.citypulse.uaso.gdiclient,eu.citypulse.uaso.gdiclient.persistdata,eu.citypulse.uaso.gdiclient.routes" source="1.8" sourcepath="src" splitindex="true" use="true" version="true">
+            <link href="file:/Users/danielk/workspaces/CityPulseQoI/CityPulseGDI/doc/"/>
+        </javadoc>
+    </target>
+</project>
