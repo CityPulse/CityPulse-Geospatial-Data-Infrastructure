@@ -38,16 +38,18 @@ Before using the GDI, an PostgreSQL instance must be set up. The following lists
 	cp_sweden=# \q 
 	```
 - Optional (at shell level) cut down area smaller area by bounding box:
+
 	```
 	osmosis   --read-xml sweden-latest.osm --tee 1 --bounding-box left=17.2410 top=60.2997 bottom=58.5328 right=20.0253 --write-xml stockholm.osm
 	```
 - At shell level  (example Import of OSM LAyer and Routing process for sweden data):
 	```
 	user@server:~$: osm2pgsql -C2000 -d cp_sweden -k -l --slim --flat-nodes flat-nodes.bin --number-processes 8  sweden-latest.osm.pbf
-	
+
 	user@server:~$: osm2pgrouting --file ./sweden-latest.osm --conf /usr/share/osm2pgrouting/mapconfig.xml --dbname cp_sweden -p5432  --user XXX --passwd XXX 
 	```
 - At shell level create some CityPulse specific tables and indizes (sql file in the repository)
+
 	```
 	user@server:~$: psql cp_sweden -f CityPulseGDI_Public/res/Initialise-CP-specials.sql
 	```
