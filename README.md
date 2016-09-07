@@ -1,7 +1,7 @@
 # GDI - Geospatial Data Infrastructure
 
 The GDI component is used by a number of other CityPulse components to tackle geo-spatial tasks. For example, the Composite Monitoring uses the GDI to find nearby sensors or the Decision Support uses the GDI to get a set of routes across the city, which follow non-functional user requirements.
-
+![AreasToAvoid](https://github.com/CityPulse/GDI/blob/master/GDI_Example2.png)
 
 ## Requirements and Dependencies
 The GDI uses OpenStreetMap Data (OSM) and is implemented in R and Java. Therefore it depends on the following components:
@@ -70,3 +70,4 @@ The GDI component was developed as part of the EU project CityPulse. The consort
 
 ## Link
 The code of the Resource Management can be found here: https://github.com/CityPulse/GDI.git
+![MultipleRoutes](https://github.com/CityPulse/GDI/blob/master/GDI_Example2.png)
