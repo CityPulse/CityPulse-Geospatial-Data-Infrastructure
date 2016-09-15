@@ -66,7 +66,7 @@ After the installation of the GDI,
 		- Example class for first experiments: eu.citypulse.uaso.gdiclient.CpClientExampleStockholm
 
 ## Contributers
-The GDI component was developed as part of the EU project CityPulse. The consortium member University of Applied Sciences provided the main contributions for this component.
+The GDI component was developed as part of the EU project CityPulse. The consortium member University of Applied Sciences Osnabrück provided the main contributions for this component.
 
 ## Link
 The code of the Resource Management can be found here: https://github.com/CityPulse/GDI.git
